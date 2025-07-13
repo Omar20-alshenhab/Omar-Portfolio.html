@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Omar Alshenhab | Data Analyst Portfolio</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f9f9f9; color: #333; }
+    header { background: #2d3e50; color: white; padding: 20px; text-align: center; }
+    .container { padding: 40px; max-width: 1000px; margin: auto; }
+    h1, h2 { color: #2d3e50; }
+    .project { background: white; padding: 20px; margin-bottom: 20px; border-radius: 10px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
+    .project img { max-width: 100%; height: auto; border-radius: 5px; }
+    .contact { background: #eaeaea; padding: 20px; border-radius: 10px; }
+    a { color: #0077cc; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Omar Alshenhab</h1>
+    <p>Data Analyst | BI Developer | Machine Learning Enthusiast</p>
+  </header>
+
+  <div class="container">
+    <section>
+      <h2>About Me</h2>
+      <p>
+        Motivated and fast learner with strong problem-solving skills, specializing in data analysis and business development. 
+        Proficient in SQL, Power BI, Python, Tableau, Excel, and Machine Learning. I enjoy turning data into insights that drive impact.
+      </p>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+
+      <div class="project">
+        <h3>🎵 Music Recommendation System</h3>
+        <p>Built using Python (pandas, scikit-learn), this system recommends personalized music tracks based on user history using collaborative and content-based filtering techniques.</p>
+        <p><strong>Tools:</strong> Python, Machine Learning, Pandas, scikit-learn</p>
+        <!-- <img src="music_project_image.png" alt="Music Recommendation System Screenshot"> -->
+      </div>
+
+      <div class="project">
+        <h3>🚆 UK Train Rides Dashboard</h3>
+        <p>Developed an interactive Power BI dashboard analyzing train ticket sales and passenger behavior (Dec 2023–Apr 2024). Showed trends in ticket sales, pricing strategies, and journey performance.</p>
+        <p><strong>Tools:</strong> Power BI, Excel, Data Storytelling</p>
+        <!-- <img src="train_dashboard.png" alt="Power BI Dashboard Screenshot"> -->
+      </div>
+
+    </section>
+
+    <section class="contact">
+      <h2>Contact</h2>
+      <p><strong>Email:</strong> <a href="mailto:alshenhabomar@gmail.com">alshenhabomar@gmail.com</a></p>
+      <p><strong>Phone:</strong> +20 10 13146717</p>
+      <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/omar-alshenhab-a74a42223" target="_blank">linkedin.com/in/omar-alshenhab-a74a42223</a></p>
+      <p><strong>Location:</strong> New Cairo, Egypt</p>
+    </section>
+  </div>
+</body>
+</html>
